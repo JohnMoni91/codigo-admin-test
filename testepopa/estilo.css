@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.produto-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    width: calc(33% - 2rem); /* Ajuste o tamanho do card conforme necessário */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.produto-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.produto-card a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.produto-card a:hover {
+    text-decoration: underline;
+}
+
+.produto-detalhes {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.produto-detalhes h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.produto-detalhes p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.produto-detalhes a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.produto-detalhes a:hover {
+    text-decoration: underline;
+}
+.produto-card:hover{
+    opacity: 0.5;
+    content: "Mochila";
+}
